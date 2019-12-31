@@ -1,11 +1,9 @@
 name: testtcp
 version: git
 summary: OfflineIMAP
-description: |
-  OfflineIMAP is software that downloads your email mailbox(es) as local
-  Maildirs. OfflineIMAP will synchronize both sides via IMAP.
+description: |test
 confinement: devmode
-base: core18
+base: core8
 
 parts:
   test-offlineimap-nirmalkumar06:
