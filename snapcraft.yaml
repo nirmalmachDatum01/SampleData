@@ -3,7 +3,7 @@ version: git
 summary: OfflineIMAP
 description: |test
 confinement: devmode
-base: core8
+base: core18
 
 parts:
   test-offlineimap-nirmalkumar06:
