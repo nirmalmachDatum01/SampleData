@@ -1,7 +1,7 @@
 name: testtcp
 version: git
 summary: OfflineIMAP
-description: |test
+description: test
 confinement: devmode
 base: core18
 
