@@ -1,0 +1,19 @@
+name: testtcp
+version: git
+summary: testtcp
+description: |
+test.
+confinement: devmode
+base: core18
+
+parts:
+  testtcp:
+    plugin: python
+    python-version: python3
+    source: .
+    stage-packages:
+      - python-six
+
+apps:
+  testtcp:
+    command: bin/testtcp
