@@ -15,5 +15,5 @@ parts:
       - python-six
 
 apps:
-  test-offlineimap-nirmalkumar06:
-    command: bin/offlineimap
+  testtcp:
+    command: bin/testtcp
