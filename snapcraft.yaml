@@ -1,13 +1,13 @@
 name: testtcp
 version: git
-summary: OfflineIMAP
+summary: testtcp
 description: |
 test.
 confinement: devmode
 base: core18
 
 parts:
-  test-offlineimap-nirmalkumar06:
+  testtcp:
     plugin: python
     python-version: python3
     source: .
